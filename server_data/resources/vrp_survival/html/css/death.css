@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100');
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+  margin: 0;
+  animation: fadein 1s;
+  overflow: hidden;
+  color: rgba(241, 241, 241, 0.6);
+  
+}
+
+body{
+  background-color: transparent;
+}
+
+h2{
+ display: none; 
+ font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container {
+  margin-top: 20vh;
+  margin-left: 20vw;
+  color: white;
+  display: none;
+}
+
+.loading {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.loading svg {
+  width: 100%;
+  height: 100%;
+}
+
+.loading #pulsar {
+  stroke-dasharray: 281;
+  animation: dash 3.0s infinite linear forwards;
+}
+
+.counter { 
+  position: absolute;
+  top: 78%;
+  left: 49%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Inconsolata', monospace;
+}
+.buttonColor1{
+  color: rgba(28, 145, 86, 0.6);
+}
+
+.buttonColor2{
+  color: rgba(194, 40, 13, 0.6);
+}
+
+/*Animation*/
+@keyframes dash {
+  from {
+    stroke-dashoffset: 814;
+  }
+
+  to {
+    stroke-dashoffset: -814;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@-ms-keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@-o-keyframes fadein {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}

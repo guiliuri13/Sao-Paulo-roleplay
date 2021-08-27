@@ -1,0 +1,59 @@
+Suporte para instalação - BDL Cloakroom v2
+
+	Seja bem vindo ao tutorial de instalação do bdl_newcloak.
+	Antes de começarmos, é importante ler os avisos nos arquivos .lua.
+	A venda desse produto é proibida.
+	Esse sistema foi desenvolvido por Edu#0069 e distribuida de maneira gratuita para fins didáticos.
+	Visite nosso github (https://github.com/badlandproject) e (https://github.com/rossinijs).
+	
+Para começarmos, é importante verificar se o framework da sua base é vRP 1.0 ou vRPex, para isso procure por uma pasta nomeada de "vrp" e leia sua documentação.
+Após isso, é necessário configurarmos certas coisas à sua preferência, podemos começar pela coordenada do script, para alterá-la você deve seguir os passos:
+	1. Vá até bdl_newcloak > client-side > joel.lua (abra com um editor de texto da sua preferência).
+	2. Após isso, vá até a linha 72 do client-side e procure pela coordenada.
+	3. Feito isso você já pode trocar a coordenada por uma de sua preferência, lembre-se de seguir o modelo ( X = X, Y = Y, Z = Z )
+Feito isso a coordenada do seu script já está configurada. Fácil não é?
+
+Podemos partir para outra etapa, a configuração das suas fardas individuais, esse é um passo complicado e vai necessitar de atenção.
+	1. Vá até bdl_newcloak > ellie.lua (abra com um editor de texto da sua preferência).
+	2. Após isso, você deve achar logo de cara várias tabelas em formato de variáveis locais.
+	3. A primeira linha de cada uma dessas variáveis, corresponde ao hash do ped padrão utilizado no FiveM, seja masculino ou feminino, você deve se basear neles e prestar bastante atenção ao montar o seu preset.
+		( ' Masculino = 1885233650 / Feminino = -1667301416 ' )
+	4. Cada número daquela tabela, corresponde à uma peça de roupa do seu ped, que você pode ver detalhadamente em:
+		(' https://wiki.rage.mp/index.php?title=Clothes ')
+	5. Após isso, apenas troque os valores da tabela pela númeração correspondente à peça que você deseja mudar, sempre seguindo o modelo citado no link acima.
+Viu? pode ser assustador de começo, mas não se preocupe, você vai pegar o jeito ;) .
+
+Essa próxima etapa diz respeito ao front-end do script, o que significa que você deve prestar atenção, para que não tenha qualquer problema.
+Agora vamos trocar os títulos e as fotos do menu, através do HTML, e se você é iniciante ou leigo, você está com sorte, o HTML é uma linguagem bastante simples e intuitiva, e nós ainda facilitamos tudo pra você durante o desenvolvimento para tudo ser mais fácilmente editável.
+	1. Vá até bdl_newcloak > nui > badland.html (abra com um editor de texto da sua preferência).
+	2. Para mudarmos o título dos seus uniformes, vamos procurar pelas tags <p> com a classe "text", e vamos mudar o texto dentro dessa tag para um da sua preferência, note também que temos várias tags iguais, e cada <div> com a classe "itemCard" representa um uniforme diferente.
+	3. Para trocarmos as fotos dos nossos uniformes, devemos procurar a tag <img> e trocar o seu URL(coloque as imagens dentro de bdl_newcloak > nui > media > img) , mas tome cuidado, altere apenas as que possuírem o identificador (id) "image". (Imagens de tamanho 512x512).
+	4. Agora, temos uma má notícia, diferente do sistema anterior, esse não possui imagens como modelo, significa que você deve ser criativo e criar as suas próprias para representar o uniforme. Boa Sorte :D.
+	5. Você também pode alterar o título principal do sistema na linha 26 do arquivo HTML.
+Acho que por agora é só isso, caso tenha qualquer dúvida ou precise de ajuda, nós temos uma aba especialmente para isso no nosso discord (https://discord.gg/bABGbex - E&G Vendas).
+
+- Edu#0069
+
+
+
+
+RECOMENDAÇÕES!
+
+- SEMPRE faça backup antes de realizar quaisquer alterações no sistema.
+- Nós NÃO recomendamos troca de nomenclaturas técnicas, sejam funções, variáveis, eventos, tunnels ou até mesmo o nome dos arquivos do script.
+- Recomendamos que entre em nosso discord, lá ajudamos na maioria das coisas referentes aos nossos sistemas.
+- Recomendamos que baixe esse sistema diretamente do nosso github, nós não nos responsabilizamos por nenhum link de terceiros.
+
+
+AVISOS!
+
+- A venda desse sistema é PROIBIDA.
+- Nós não nos responsabilizamos por instalação/suporte desse script, ajudaremos na medida do possível e de bom grado.
+- Nós não nos responsabilizamos por NENHUM repost/link de terceiros.
+- A E&G Vendas como entidade comercial NÃO se responsabiliza pela venda/manuseio não autorizado desse sistema.
+
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.

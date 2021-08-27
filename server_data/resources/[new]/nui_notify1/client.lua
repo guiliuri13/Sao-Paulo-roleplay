@@ -1,0 +1,1 @@
+RegisterNetEvent("ANotify") AddEventHandler("ANotify",function(css,mensagem) SendNUIMessage({ css = css, mensagem = mensagem }) end)

@@ -1,0 +1,41 @@
+Suporte para Instalação - BDL PD System
+
+	Seja bem vindo ao tutorial de instalação do bdl_pdsystem.
+	Antes de começarmos, é importante ler os avisos nos arquivos .lua.
+	A venda desse produto é proibida.
+	Esse sistema foi desenvolvido por Edu#0069 e distribuida de maneira gratuita para fins didáticos.
+	Visite nosso github (https://github.com/badlandproject) e (https://github.com/rossinijs).
+	
+Para começarmos, é importante verificar se o framework da sua base é vRP 1.0 ou vRPex, para isso procure por uma pasta nomeada de "vrp" e leia sua documentação.
+Após isso, é necessário configurarmos certas coisas à sua preferência, podemos começar pela coordenada do script, para alterá-la você deve seguir os passos:
+	1. Vá até bdl_pdsystem > client-side > joel.lua (abra com um editor de texto da sua preferência).
+	2. Após isso, vá até a linha 130 do client-side e procure pela coordenada.
+	3. Feito isso você já pode trocar a coordenada por uma de sua preferência, lembre-se de seguir o modelo ( X = X, Y = Y, Z = Z )
+Feito isso a coordenada do seu script já está configurada. Fácil não é?
+
+Após isso, você deve iniciar o script junto com a sua base por default, isso deve ser feito a partir do seu arquivo de configuração, que é individual de cada base.
+O comando para se adicionar no arquivo de config é 'ensure bdl_pdsystem'
+
+Aproveite.
+
+Suporte em https://discord.gg/bABGBEX.
+
+RECOMENDAÇÕES!
+
+- SEMPRE faça backup antes de realizar quaisquer alterações no sistema.
+- Nós NÃO recomendamos troca de nomenclaturas técnicas, sejam funções, variáveis, eventos, tunnels ou até mesmo o nome dos arquivos do script.
+- Recomendamos que entre em nosso discord, lá ajudamos na maioria das coisas referentes aos nossos sistemas.
+- Recomendamos que baixe esse sistema diretamente do nosso github, nós não nos responsabilizamos por nenhum link de terceiros.
+
+AVISOS!
+
+- A venda desse sistema é PROIBIDA.
+- Nós não nos responsabilizamos por instalação/suporte desse script, ajudaremos na medida do possível e de bom grado.
+- Nós não nos responsabilizamos por NENHUM repost/link de terceiros.
+- A E&G Vendas como entidade comercial NÃO se responsabiliza pela venda/manuseio não autorizado desse sistema.
+
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.
+ESSE SISTEMA FOI DESENVOLVIDO POR Edu#0069 PARA A DIVULGAÇÃO DO PROJETO BADLAND, TODOS OS DIREITOS SÃO RESERVADOS Á E&G VENDAS, SEJA DE IMAGEM, COMÉRCIO, OU DIREITO INTELECTUAL.

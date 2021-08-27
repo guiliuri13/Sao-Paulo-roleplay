@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="3000" />
+  <proxies>
+	<Item>gabz_pillbox_milo_</Item>
+	<Item>hei_dt1_06_strm_0</Item>
+	<Item>gabz_imp_impexp_interior_placement_interior_1_impexp_intwaremed_milo_</Item>
+	<Item>int_mafc_milo_</Item>
+	<Item>int_cityhall_milo_</Item>
+	<Item>slb2k11_cellblock_milo_</Item>
+  </proxies>
+</SInteriorOrderData>

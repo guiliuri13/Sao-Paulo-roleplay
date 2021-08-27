@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  height:100vh;
+  letter-spacing: 1.5px;
+  width: 100%;
+  overflow: hidden;
+  font-family: Normal,fantasy,sans-serif;
+  font-weight: lighter;
+}
+
+* {
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.centerDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin:  10% auto;
+  width: 1002px;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+:focus {
+  outline: 0;
+}
+
+::selection {
+  background: transparent;
+}
+
+.containerInline {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+}
+
+.left {
+  width: 250px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+.left img {
+  width: 165px;
+  height: 160px;
+  margin-bottom: 60px;
+}
+
+.left .sectionItem {
+  width: 100%;
+  padding: 1px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  transition: all .3s;
+}
+
+.left .sectionItem:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.10);
+  border-left: 3px solid #180081;
+}
+
+.right {
+  width: 780px;
+  height: 100%;
+  padding: 10px;
+}
+
+.right .sectionContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  
+  overflow: auto;
+}
+
+.right .sectionContent .sectionItem {
+  width: 230px;
+  height: 220px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.10);
+  
+  transition: all .3s;
+}
+
+.right .sectionContent .sectionItem .overlayItem {
+  position: absolute;
+  display: none;
+  top: -500px;
+  opacity: 0;
+  width: 100%;
+  height: 95px;
+}
+
+.right .sectionContent .sectionItem .overlayItem button {
+  border: 0;
+  width: 80%;
+  color: #fff;
+  height: 40px;
+  margin: 5px 15px;
+  margin-left: 15px;
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+.right .sectionContent .sectionItem .overlayItem button:hover {
+  color: #fff;
+  background-color: #180081;
+}
+
+.right .sectionContent .sectionItem .imgIcon {
+  width: 100%;
+  height: 95px;
+  
+  background-position: center;
+  background-size: cover;
+}
+
+.right .sectionContent .sectionItem .imgIcon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right .sectionContent .sectionItem .priceItem {
+  font-size: 20px;
+}
+
+.right .sectionContent .sectionItem:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.10);
+}
+
+.right .sectionContent .sectionItem:hover .overlayItem {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  display: block;
+}
+
+.right .sectionContent .sectionItem:hover .imgIcon {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.10);
+  border-radius: .2rem;
+}

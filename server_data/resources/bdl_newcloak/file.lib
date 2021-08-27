@@ -1,0 +1,22 @@
++ dev_version = v2020.0.0.00688
++ developer = rossinijs
++ readme = bdl_help.txt
++ file_directory = [
+[bdl_newcloak]
+    -ellie.lua
+    -fxmanifest.lua
+    -bdl_help.txt
+    	[client-side]
+            -joel.lua
+        [nui]
+	    -badland.html {markut text}
+	    -badland.css {stylesheet}
+	    -badland.js {jQuery lib v3.2}
+_EventDocumentOn [end]
+]
+
+_TryGetJsonFile = [{}]
+_LoadFuncOnPage [nil]
+_SetTimeToLoad [0.000000000]
+_SetPageDelay [30]
+_DoItOnTrueState [cond_1 to load.executeFunction]

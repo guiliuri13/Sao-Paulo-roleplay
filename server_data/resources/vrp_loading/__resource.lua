@@ -1,0 +1,35 @@
+files {
+    'index.html',
+    'css/templatemo-style.css',
+    'css/demo.css',
+    'css/font-awesome.min.css',
+    'css/bootstrap.min.css',
+    'fonts/FontAwesome.otf',
+    'fonts/fontawesome-webfont.eot',
+    'fonts/fontawesome-webfont.svg',
+    'fonts/fontawesome-webfont.ttf',
+    'fonts/fontawesome-webfont.woff',
+    'fonts/fontawesome-webfont.woff2',
+    'img/discord_logo.png',
+    'img/fivem-logo.png',
+    'img/logo.png',
+    'js/app.js',
+    'js/modernizr.custom.86080.js',
+    'js/particles.js',
+    'js/code.js',
+    'album/diaspora.jpg',
+    'album/jah.jpg',
+    'album/reri.jpg',
+    'album/teto.jpg',
+    'album/tue.jpg',
+    'music/diaspora.mp3',
+    'music/m4.mp3',
+    'music/sal.mp3',
+    'music/twiag.mp3',
+    'music/wms.mp3',
+    'css/cursor.svg',
+}
+
+loadscreen 'index.html'
+
+resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'

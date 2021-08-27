@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="nui://vrp_scoreboard/html/listener.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="nui://vrp_scoreboard/html/style.css">
+</head>
+
+<body>
+	<div style="display: none;" id="wrap">
+
+		<div class="header">
+			<div class="jobs">
+				<p style="color:rgb(255, 0, 0); text-shadow: 2px 2px 3px rgb(0, 0, 0)";> 👨‍⚕️ <span id="ems">0</span> </p>
+				<p style="color:rgb(94, 161, 224); text-shadow: 2px 2px 3px rgba(94, 161, 224, 1);"> 👮🏻 <span id="police">0</span> </p>
+				<p style="color:rgb(255, 255, 0); text-shadow: 2px 2px 3px rgba(255, 255, 0, 1);"> 🚕 <span id="taxi">0</span> </p>
+				<p style="color:grey; text-shadow: 2px 2px 3px rgba(128, 128, 128, 1);"> 🔧 <span id="mechanic">0</span> </p>
+				<!--<p style="color:lightblue;"> 🚗 <span id="cardealer">0</span> </p>
+				<p style="color:#58ce93;"> 🏘️ <span id="estate">0</span> </p>-->
+			</div>
+		</div>
+
+		<div class="playerlist">
+			<table id="playerlist" width="100%">
+				<tr class="heading">
+					<th>Nome</th>
+					<th>RG</th>
+					<th>Ping</th>
+					
+				</tr>
+			</table>
+		</div>
+
+		<div class="serverinfo">
+			Jogadores: <span id="player_count">0</span> / <span id="max_players">0</span> <span style="font-size: 1.2vw">|</span>
+			Tempo online (server): <span id="server_uptime"></span><span style="font-size: 1.2vw"> |</span>
+			Tempo jogado: <span id="play_time"></span>
+		</div>
+
+	</div>
+</body>
+
+</html>

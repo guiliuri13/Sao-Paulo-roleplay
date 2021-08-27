@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>VOIP</title>
+
+	<style>
+		.info-container {
+			position: absolute;
+			top: 4%;
+			left: 0%;
+			text-align: left;
+			padding: 5px;
+			font-family: 'Roboto', sans-serif;
+			font-style: italic;
+			font-weight: bold;
+			color: rgb(235, 235, 235);
+			font-size: 0.58vw;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		}
+
+		.talking {
+			color: rgba(60, 221, 73, 0.555);
+		}
+	</style>
+	<script type="text/javascript">
+		window.addEventListener("message", function (event) {
+			var item = event.data;
+
+			if (item.sound && item.volume) {
+				let snd = document.getElementById(item.sound);
+				snd.load();
+				snd.volume = item.volume;
+				snd.play();
+			}
+
+			if (item.mode) {
+				let modeElem = document.getElementById("voip-mode");
+
+				modeElem.innerHTML = item.mode + (item.radioActive ? " " : "");
+
+				if (item.talking != null) {
+					if (item.talking) {
+						modeElem.className = "talking"
+					} else {
+						modeElem.className = ""
+					}
+				}
+			}
+
+			if (item.radio != null) {
+				let radioElem = document.getElementById("voip-radio");
+
+				if (item.radio > 0 || isNaN(item.radio)) {
+					radioElem.innerHTML = "[Radio] Frequência: " + item.radio + (!isNaN(item.radio) ? " MHz" : "");
+				} else {
+					radioElem.innerHTML = "";
+				}
+			}
+
+			if (item.call != null) {
+				let callElem = document.getElementById("voip-call");
+
+				if (item.call > 0) {
+					callElem.innerHTML = "[Call] [" + (item.speaker ? "🔊" : "🔈") + "] " + item.call;
+				} else {
+					callElem.innerHTML = "";
+				}
+			}
+		});
+	</script>
+</head>
+
+<body>
+	<audio id="audio_on" src="mic_click_on.ogg"></audio>
+	<audio id="audio_off" src="mic_click_off.ogg"></audio>
+
+	<div class="info-container">
+		<div>Voz: <span id="voip-mode"></span></div>
+		<div id="voip-radio"></div>
+		<div id="voip-call"></div>
+	</div>
+</body>
+
+</html>

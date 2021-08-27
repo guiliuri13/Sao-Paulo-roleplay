@@ -1,0 +1,193 @@
+*{margin: 0; padding: 0;}
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+#actionmenu{
+    display: none;
+}
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;   
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+#container{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#direita{
+    float: left;
+    width:440px;
+    height: 600px;
+}
+.active{
+    BORDER-BOTTOM: solid 1px #3498db;
+}
+#esquerda{
+    float: left;
+    width:450px;
+    margin-left: 10px;
+    height: 600px;
+}
+#esquerda::before{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 500px;
+    float: left;
+    background-image: linear-gradient(to top, #00bbff00,  #00bbff,  #00bbff00);
+    position: relative;
+    right: 5px;
+    top: 30px;
+}
+#titulo{
+    float: left;
+    width: 900px;
+    height: 30px;
+    color: #00bbff;
+    font-size: 25px;
+    font-weight: bold;
+}
+#mostraFoto{
+    float: left;
+    width: 440px;
+    height: 230px;
+    background-size: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#nomeCarro{
+    width: 440px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 190px;
+}
+#listaVeiculos{
+    margin-top: 30px;
+    width: 448px;
+    height: 400px;
+    float: left;
+    overflow: auto;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lista{
+    width: 430px;
+    height: 70px;
+    margin: auto;
+    margin-top: 10px;
+    background-size: 100%;
+    background-position: center;
+}
+.lista:hover{
+    background-size: 110%;
+    opacity: 0.9;
+}
+#guardar{
+    width: 448px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.17);
+    letter-spacing: 2px;
+}
+#guardar:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+#retirar{
+    width: 448px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    background: #00bbff;
+}
+
+#retirar:hover{
+    background:  #59caf3;
+}
+#seguroServicos{
+    float: left;
+    width: 440px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#seguro{
+    float: left;
+    margin-left: 50px;
+}
+#seguro span{
+    font-weight: bold;
+
+}
+#servicos{
+    float: right;
+    margin-right: 50px;
+}
+#servico span{
+    font-weight: bold;
+
+}
+#infos{
+    float: left;
+    width: 440px;
+    height: 240px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.infoEsquerda{
+    color: #fff;
+    width: 100px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.infoEsquerda span{
+    color: #00bbffaa !important;
+}
+.infoEsquerda img{
+    width: 22px;
+}
+.infoEsquerda span{
+    color: #00bbff;
+}
+
+#fotoInfos{
+    color: #Fff;
+    float: right;
+    width: 270px;
+    height: 150px;
+    position: relative;
+    bottom: 200px;
+    color: #00bbff;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#fotoInfos img{
+    width: 180px;
+    margin-top: 10px;
+}

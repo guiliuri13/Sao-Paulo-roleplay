@@ -1,0 +1,121 @@
+body{
+    overflow: hidden;
+
+  height: 100%;
+  width: 100%;
+}
+
+.screen{
+    height: 60%;
+    width: 100%;
+    
+    margin-top: 5%;
+    transform: rotate(-4deg);
+}
+
+.card{
+    margin-top: 7%;
+    
+    height: 150px;
+
+    width: 180px;
+    margin-left: 92%;
+
+}
+
+.logo{
+    max-width: 110px;
+
+    opacity: 0.6;
+
+    margin-left: 15%;
+
+    transform: rotate(-1.5deg);
+
+    animation: pulseBounce 4s linear infinite;
+
+    position: relative;
+
+}
+
+
+.discord{
+    margin-top: -30%;
+    margin-left: -2%;
+
+    position: relative;
+
+    background-position: center;
+    background-image: radial-gradient(rgba(255, 136, 0, 0.479), transparent, transparent);
+
+    width: 120px;
+
+    animation: pulseBounce 4s linear infinite;
+
+    text-shadow: 0px 0px 14px rgba(0, 0, 0, 1);
+
+}
+
+h1{
+    font-size: 15px;
+
+    font-style: italic;
+
+
+    font-weight: bolder;
+
+    font-family: 'Source Code Pro', monospace;
+
+    text-shadow: 0px 0px 14px rgb(255, 255, 255);
+
+}
+
+.strong{
+    text-align: center;
+  
+    background: linear-gradient(to right, rgb(255, 102, 0) 20%, rgba(255, 102, 0, 0.801) 40%, rgba(255, 102, 0, 0.651) 60%, rgba(255, 102, 0, 0.466) 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 2.5s linear infinite;    
+
+    width: 170%;
+
+    font-weight: bolder;
+
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+@keyframes pulseBounce {
+    0% {
+        transform: translate(-55%, -50%) scale(1);
+    }
+    25% {
+        transform: translate(-55%, -50%) scale(1.05);
+    }
+    50% {
+        transform: translate(-55%, -50%) scale(1);
+    }
+    75% {
+        transform: translate(-55%, -50%) scale(1.05);
+    }
+    100% {
+        transform: translate(-55%, -50%) scale(1);
+    }
+}
